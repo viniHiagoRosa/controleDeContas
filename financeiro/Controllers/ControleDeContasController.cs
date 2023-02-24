@@ -60,6 +60,5 @@ namespace financeiro.Controllers
             var response = _controleService.DeletarConta(id);
             return Ok(response);
         }
-
     }
 }
